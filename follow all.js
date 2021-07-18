@@ -1,3 +1,5 @@
+// https://twitter.com/[user]/following or https://twitter.com/[user]/followers
+
 (() => {
   const $followButtons = '[data-testid$="-follow"]';
   const $confirmButton = '[data-testid="confirmationSheetConfirm"]';
