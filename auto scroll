@@ -1,9 +1,0 @@
-#1 copy the code below
-#2 works on any twitter page (twitter.com/____)
-#3 open inspect element. (ctrl shift + i) or click the 3 dots at the top of chrome -> more tools -> developer tools
-#4 click on console tab and paste the code below in and hit enter
---
-
-setInterval(() => {
-  window.scrollTo(0, document.body.scrollHeight)
-}, 5000) -- can change 5000 to whatever 5000 just works best imo
