@@ -1,15 +1,3 @@
-#1 copy the code below
-#2 go over to https://twitter.com/[YOUR_USERNAME]/suggested (also work on a user's/your following/followers)
-#3 open inspect element. (ctrl shift + i) or click the 3 dots at the top of chrome -> more tools -> developer tools
-#4 click on console tab and paste the code below in and hit enter
-
--- you can only follow like 30 people every min or something, warning if you try following a lot of people and then unfollowing later twitter will auto lock/suspended you
--- if it doesnt unfollow everyone just refresh and run the code again
--- not my code, original author deleted it
--- feel free to fix the code and make it shorter, i just changed on value from unfollow all. works fine though so no need to really
-
-
-
 (() => {
   const $followButtons = '[data-testid$="-follow"]';
   const $confirmButton = '[data-testid="confirmationSheetConfirm"]';
