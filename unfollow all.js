@@ -1,10 +1,4 @@
-#1 copy the code below
-#2 go over to https://twitter.com/[YOUR_USERNAME]/following
-#3 open inspect element. (ctrl shift + i) or click the 3 dots at the top of chrome -> more tools -> developer tools
-#4 click on console tab and paste the code below in and hit enter
-
--- if it doesnt unfollow everyone just refresh and run the code again
--- not my code, original author deleted it
+// https://twitter.com/[YOUR_USERNAME]/following
 
 (() => {
   const $followButtons = '[data-testid$="-unfollow"]';
